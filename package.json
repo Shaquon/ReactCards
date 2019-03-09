@@ -18,5 +18,17 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "description": "In this assessment, you will become more proficient at:",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/skelley/assessment---react-cards.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/skelley/assessment---react-cards/issues"
+  },
+  "homepage": "https://gitlab.com/skelley/assessment---react-cards#readme"
 }
