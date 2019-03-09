@@ -10,7 +10,7 @@ const CardGroup = (props) => (
 const Card = (props) => (
     <div className="card cardGroup__card">
             <div className="card__description cardGroup__cardDescription">
-                <div className="icon fa ${props.icon} card__descriptionIcon" />
+                <div className={`icon fa ${props.icon} card__descriptionIcon`} />
                 <div className="card__descriptionText">
                 {props.description && <span>{props.description}</span>}
                 {props.secondDescription && <React.Fragment><br/>({props.secondDescription})</React.Fragment>}
