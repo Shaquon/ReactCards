@@ -12,9 +12,8 @@ const Card = (props) => (
             <div className="card__description cardGroup__cardDescription">
                 <div className="icon fa ${props.icon} card__descriptionIcon" />
                 <div className="card__descriptionText">
-                <span>{props.description}</span><br></br>
-                
-                <span>({props.secondDescription})</span>
+                {props.description && <span>{props.description}</span>}
+                {props.secondDescription && <React.Fragment><br/>({props.secondDescription})</React.Fragment>}
                 </div>
             </div>
             <div className="card__price">{props.price}</div>
